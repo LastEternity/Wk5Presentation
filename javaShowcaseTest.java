@@ -7,7 +7,7 @@ import org.junit.*;
 public class javaShowcaseTest {
     @Test
     public void doubleNum(){
-        assertEquals(2, javaShowcase.multiplyByTwo(2)); 
+        assertEquals(4, javaShowcase.multiplyByTwo(2)); 
         //should fail because expected is 4
     }
 }
